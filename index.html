@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./src/css/style.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="stats left">
+            <h2>Helten</h2>
+            <img src="./assets/img/hero.png" alt="Helten" class="img">
+            <p id="hero-hp">Liv: 100</p>
+            <p id="hero-final" class="final-message"></p>
+        </div>
+
+        <div class="stats right">
+            <h2>Monsteret</h2>
+            <img src="./assets/img/monster.png" alt="Monsteret" class="img">
+            <p id="monster-hp">Liv: 100</p>
+            <p id="monster-final" class="final-message"></p>
+        </div>
+    </div>
+
+    <button id="attack-btn" style="display: block;">Angrib</button>
+    <button id="reset-btn" style="display: none;">Prøv igen</button>
+
+    <div id="battle-log"></div>
+
+</body>
+<script src="./src/js/script.js"></script>
+
+</html>
